@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RabbitMq_MassTransit_CQRS.Consumer": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

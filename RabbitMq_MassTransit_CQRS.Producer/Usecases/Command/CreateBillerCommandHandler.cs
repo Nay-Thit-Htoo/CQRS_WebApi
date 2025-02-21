@@ -1,6 +1,7 @@
-﻿using MediatR;
+using RabbitMq_MassTransit_CQRS.Producer.Models;
+using MediatR;
 
-namespace CQRS_WebApi.Usecases.Command
+namespace RabbitMq_MassTransit_CQRS.Producer.Usecases.Command
 {
     public class CreateBillerCommandHandler : IRequestHandler<CreateBillerCommand, int>
     {

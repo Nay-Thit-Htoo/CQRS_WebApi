@@ -1,6 +1,7 @@
-﻿using MediatR;
+using RabbitMq_MassTransit_CQRS.Producer.Models;
+using MediatR;
 
-namespace CQRS_WebApi.Usecases.Queries;
+namespace RabbitMq_MassTransit_CQRS.Producer.Usecases.Queries;
 public class GetProductByIdQueryHandler : IRequestHandler<GetBillerByIdQuery, Biller>
 {
     private readonly AppDbContext _context;

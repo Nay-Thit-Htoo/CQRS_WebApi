@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+using RabbitMq_MassTransit_CQRS.Producer.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace CQRS_WebApi;
+namespace RabbitMq_MassTransit_CQRS.Producer;
 public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }

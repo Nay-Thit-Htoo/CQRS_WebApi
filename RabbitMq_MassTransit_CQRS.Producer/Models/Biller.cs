@@ -1,4 +1,4 @@
-﻿namespace CQRS_WebApi
+namespace RabbitMq_MassTransit_CQRS.Producer.Models
 {
     public class Biller
     {
